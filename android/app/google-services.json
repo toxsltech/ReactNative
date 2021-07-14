@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "385657139995",
+    "project_id": "fambase-b7c13",
+    "storage_bucket": "fambase-b7c13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385657139995:android:66a7dd531165f7524399be",
+        "android_client_info": {
+          "package_name": "com.fambase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385657139995-v1paaj8lksm7dkgiobj7dk507puo8p8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKMBJtQyd0PmZk4PVn0ltG7ZvNhEMv9oI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385657139995-v1paaj8lksm7dkgiobj7dk507puo8p8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

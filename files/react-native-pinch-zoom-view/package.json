@@ -1,0 +1,63 @@
+{
+  "_from": "react-native-pinch-zoom-view",
+  "_id": "react-native-pinch-zoom-view@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-KPrJCSKX/NZuNjyS9gl4gR1AhV0sWo2KgJOI5tD8+YhzjtSRHnaq9XvOdO4ero3oyU2oFXyFHEVH+DzOfaXqOg==",
+  "_location": "/react-native-pinch-zoom-view",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-pinch-zoom-view",
+    "name": "react-native-pinch-zoom-view",
+    "escapedName": "react-native-pinch-zoom-view",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-pinch-zoom-view/-/react-native-pinch-zoom-view-0.2.0.tgz",
+  "_shasum": "5ff469e7b1b4a69629a8fb31a226d3855e813799",
+  "_spec": "react-native-pinch-zoom-view",
+  "_where": "/home/local/TOXSL/mohit.kumar/Desktop/fambase/New Folder/backup/fambase-node-1497-react-native",
+  "author": {
+    "name": "Chen Guo"
+  },
+  "bugs": {
+    "url": "https://github.com/GuoChen-WHU/react-native-pinch-zoom-view/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "deprecated": false,
+  "description": "A pinch-to-zoom view for React Native.",
+  "devDependencies": {
+    "prettier": "1.13.7"
+  },
+  "homepage": "https://github.com/GuoChen-WHU/react-native-pinch-zoom-view#readme",
+  "keywords": [
+    "pinch",
+    "zoom",
+    "view",
+    "react-native"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-pinch-zoom-view",
+  "peerDependencies": {
+    "react": ">=15.4.0",
+    "react-native": ">=0.41.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GuoChen-WHU/react-native-pinch-zoom-view.git"
+  },
+  "scripts": {
+    "prettify": "prettier --single-quote --write 'index.js'"
+  },
+  "version": "0.2.0"
+}

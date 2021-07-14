@@ -1,0 +1,3 @@
+export const GET_STORE_REQUEST = 'GetStore/GET_STORE_REQUEST';
+export const GET_STORE_SUCCESS = 'GetStore/GET_STORE_SUCCESS';
+export const GET_STORE_FAILURE = 'GetStore/GET_STORE_FAILURE';

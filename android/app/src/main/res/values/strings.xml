@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Fambase</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBVveLZy91Y0Try4n_GNOtuXIGgVNg7pi8</string>
+</resources>

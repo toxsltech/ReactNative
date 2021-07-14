@@ -1,0 +1,33 @@
+/* @copyright : ToXSL Technologies Pvt. Ltd. < www.toxsl.com >
+@author    : Shiv Charan Panjeta < shiv@toxsl.com >
+
+All Rights Reserved.
+Proprietary and confidential :  All information contained here in is, and remains
+the property of ToXSL Technologies Pvt. Ltd. and it's partners.
+Unauthorized copying of this file, via any medium is strictly prohibited. */
+
+
+import Message from './Message';
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+import { onGetStory } from '../../../modules/GetStory';
+import { onGetProfile } from '../../../modules/GetProfile';
+
+const mapStateToProps = state => ({
+    isBusyProfile: state.GetProfileReducer.isBusy,
+    getprofileResponse: state.GetProfileReducer.response,
+
+    isBusyStory: state.GetStoryReducer.isBusy,
+    getstoryResponse: state.GetStoryReducer.response,
+});
+
+export default connect(
+    mapStateToProps,
+    dispatch => {
+        return {
+            onGetProfile: bindActionCreators(onGetProfile, dispatch),
+            onGetStory: bindActionCreators(onGetStory, dispatch),
+
+        };
+    },
+)(Message);
